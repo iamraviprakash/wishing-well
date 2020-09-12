@@ -9,7 +9,7 @@ module.exports = {
     "gatsby-plugin-react-helmet",
     {
       resolve: `gatsby-source-datocms`,
-      options: { apiToken: "bcf4109eb3a5132c7b6320aa2f4bf6" }
+      options: { apiToken: process.env.DATO_API_TOKEN }
     },
     {
       resolve: "gatsby-plugin-snipcart",
